@@ -1,0 +1,9 @@
+# import pandas as pd 
+import pandas as pd  
+    
+# List1  
+lst = [['This is', 1], ['a', 2], ['learning', 3], ['program', 4]] 
+
+# creating df object  
+df = pd.DataFrame(lst, columns =['Tag', 'number']) 
+print(df )
